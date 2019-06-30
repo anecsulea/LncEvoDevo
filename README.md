@@ -1,5 +1,10 @@
-# LncEvoDevo
+This repository provides the scripts and pipelines used in the following manuscript:
 
-[Supplementary datasets](ftp://pbil.univ-lyon1.fr/pub/datasets/Darbellay_LncEvoDevo/index.html)
+### Comparative transcriptomics analyses across species, organs and developmental stages reveal functionally constrained lncRNAs
 
-[Supplementary tables](ftp://pbil.univ-lyon1.fr/pub/datasets/Darbellay_LncEvoDevo/supplementary_tables)
+#### Fabrice Darbellay and Anamaria Necsulea
+
+
+LncRNA annotations, expression data and evolutionary conservation analyses can be found here: 
+
+ftp://pbil.univ-lyon1.fr/pub/datasets/Darbellay_LncEvoDevo/index.html
