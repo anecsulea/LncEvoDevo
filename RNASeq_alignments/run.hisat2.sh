@@ -5,7 +5,7 @@ export tissue=$2
 
 #############################################################################
 
-export path=/pandata/necsulea/LncEvoDevo
+export path=LncEvoDevo
 export pathRNASeq=${path}/data/RNASeq/${species}
 export pathEnsembl=${path}/data/ensembl_annotations/${species}
 export pathDocs=${path}/docs
@@ -65,7 +65,6 @@ do
 	echo "#!/bin/bash" > bsub_script_hisat
 	echo "#PBS -o std_output_hisat_${species}_${sample}.txt" >>  bsub_script_hisat
 	echo "#PBS -e std_error_hisat_${species}_${sample}.txt" >>  bsub_script_hisat
-	echo "source /panhome/necsulea/.bashrc" >>  bsub_script_hisat
     
     	export pathLocal=./hisat2_${species}_${sample}
 	
